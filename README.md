@@ -1,8 +1,8 @@
 # JUCE-colourID-list
 A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound: :woman_artist: :man_artist:
 
-LAF Components:
-*[AlertWindow]
+LAF Components
+*[AlertWindow](AlertWindow)
 *AudioDeviceSelectorComponentMethods
 *BubbleComponent
 *Button
@@ -33,7 +33,8 @@ LAF Components:
 *TreeView
 
 
-(#AlertWindow)
+###AlertWindow
+
 ```c++
 AlertWindow::backgroundColourId = 0x1001800 //The background colour for the window.
 AlertWindow::textColourId       = 0x1001810 //The colour for the text.
