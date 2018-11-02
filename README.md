@@ -1,11 +1,43 @@
 # JUCE-colourID-list
 A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound: :woman_artist: :man_artist:
 
-AlertWindow
+LAF Components:
+*[AlertWindow]
+*AudioDeviceSelectorComponentMethods
+*BubbleComponent
+*Button
+*CallOutBox
+*ComboBox
+*ConcertinaPanel
+*DocumentWindow
+*FileBrowserComponent
+*FilenameComponent
+*GroupComponent
+*ImageButton
+*KeyMappingEditorComponentMethods
+*Label
+*LassoComponentMethods
+*PopupMenu
+*ProgressBar
+*PropertyComponent
+*ResizableWindow
+*ScrollBar
+*SidePanel
+*Slider
+*StretchableLayoutResizerBar
+*TabbedButtonBar
+*TableHeaderComponent
+*TextEditor
+*Toolbar
+*TooltipWindow
+*TreeView
+
+
+(#AlertWindow)
 ```c++
-    AlertWindow::backgroundColourId = 0x1001800 //The background colour for the window.
-    AlertWindow::textColourId       = 0x1001810 //The colour for the text.
-    AlertWindow::outlineColourId    = 0x1001820 //An optional colour to use to draw a border around the window.
+AlertWindow::backgroundColourId = 0x1001800 //The background colour for the window.
+AlertWindow::textColourId       = 0x1001810 //The colour for the text.
+AlertWindow::outlineColourId    = 0x1001820 //An optional colour to use to draw a border around the window.
 ```
 
 BooleanPropertyComponent
