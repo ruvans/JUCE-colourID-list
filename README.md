@@ -8,7 +8,6 @@ AlertWindow
     AlertWindow::outlineColourId    = 0x1001820 //An optional colour to use to draw a border around the window.
 ```
 
-
 BooleanPropertyComponent
 ```c++
 BooleanPropertyComponent::backgroundColourId = 0x100e801 //The colour to fill the background of the button area.
