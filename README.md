@@ -1,5 +1,5 @@
 # JUCE-colourID-list
-A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound: woman_artist: :man_artist:
+A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound: :woman_artist: :man_artist:
 
 AlertWindow
 ```c++
