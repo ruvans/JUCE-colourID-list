@@ -3,7 +3,7 @@ A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound:
 
 
 
-####LAF Components
+##LAF Components
 * [AlertWindow](alertwindow)
 * AudioDeviceSelectorComponentMethods
 * BubbleComponent
