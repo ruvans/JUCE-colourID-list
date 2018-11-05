@@ -1,31 +1,73 @@
 # JUCE-colourID-list
 A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound: :woman_artist: :man_artist:
 
-AlertWindow
+
+#### LAF Components
+* [AlertWindow](#alertwindow)
+* [BooleanPropertyComponent](#booleanpropertycomponent)
+* [BubbleComponent](#bubblecomponent)
+* [CaretComponent](#caretcomponent)
+* [CodeEditorComponent](#codeeditorcomponent)
+* [ColourSelector](#colourselector)
+* [ComboBox](#combobox)
+* [DirectoryContentsDisplayComponent](#directorycontentsdisplaycomponent)
+* [DocumentWindow](#documentwindow)
+* [DrawableButton](#drawablebutton)
+* [FileBrowserComponent](#filebrowsercomponent)
+* [FileChooserDialogBox](#filechooserdialogbox)
+* [FileSearchPathListComponent](#filesearchpathlistcomponent)
+* [GroupComponent](#groupcomponent)
+* [HyperlinkButton](#hyperlinkbutton)
+* [KeyMappingEditorComponentMethods](#keymappingeditorcomponentmethods)
+* [Label](#label)
+* [LassoComponentMethods](#lassocomponentmethods)
+* [ListBox](#listbox)
+* [MidiKeyboardComponent](#midikeyboardcomponent)
+* [PopupMenu](#popupmenu)
+* [ProgressBar](#progressbar)
+* [PropertyComponent](#propertycomponent)
+* [ResizableWindow](#resizablewindow)
+* [ScrollBar](#scrollbar)
+* [SidePanel](#sidepanel)
+* [Slider](#slider)
+* [TabbedButtonBar](#tabbedbuttonbar)
+* [TabbedComponent](#tabbedcomponent)
+* [TableHeaderComponent](#tableheadercomponent)
+* [TextButton](#textbutton)
+* [TextEditor](#texteditor)
+* [TextPropertyComponent](#textpropertycomponent)
+* [ToggleButton](#togglebutton)
+* [Toolbar](#toolbar)
+* [TooltipWindow](#tooltipwindow)
+* [TreeView](#treeview)
+---
+
+##### AlertWindow
+
 ```c++
-    AlertWindow::backgroundColourId = 0x1001800 //The background colour for the window.
-    AlertWindow::textColourId       = 0x1001810 //The colour for the text.
-    AlertWindow::outlineColourId    = 0x1001820 //An optional colour to use to draw a border around the window.
+AlertWindow::backgroundColourId = 0x1001800 //The background colour for the window.
+AlertWindow::textColourId       = 0x1001810 //The colour for the text.
+AlertWindow::outlineColourId    = 0x1001820 //An optional colour to use to draw a border around the window.
 ```
 
-BooleanPropertyComponent
+##### BooleanPropertyComponent
 ```c++
 BooleanPropertyComponent::backgroundColourId = 0x100e801 //The colour to fill the background of the button area.
 BooleanPropertyComponent::outlineColourId    = 0x100e803 //The colour to use to draw an outline around the text area.
 ```
 
-BubbleComponent
+##### BubbleComponent
 ```c++
 BubbleComponent::backgroundColourId = 0x1000af0 //A background colour to fill the bubble with. 
 BubbleComponent::outlineColourId    = 0x1000af1 //The colour to use for an outline around the bubble. 
 ```
 
-CaretComponent
+##### CaretComponent
 ```c++
 CaretComponent::caretColourId = 0x1000204 //The colour with which to draw the caret.
 ```
 
-CodeEditorComponent
+##### CodeEditorComponent
 ```c++
 CodeEditorComponent::backgroundColourId     = 0x1004500 //A colour to use to fill the editor's background.
 CodeEditorComponent::highlightColourId      = 0x1004502 //The colour to use for the highlighted background under selected text.
@@ -34,13 +76,13 @@ CodeEditorComponent::lineNumberBackgroundId = 0x1004504 //The colour to use for 
 CodeEditorComponent::lineNumberTextId       = 0x1004505 //The colour to use for drawing the line numbers.
 ```
 
-ColourSelector
+##### ColourSelector
 ```c++
 ColourSelector::backgroundColourId = 0x1007000 //The colour used to fill the component's background.
 ColourSelector::labelTextColourId  = 0x1007001 //The colour used for the labels next to the sliders.
 ```
 
-ComboBox
+##### ComboBox
 ```c++
 ComboBox::backgroundColourId     = 0x1000b00 //The background colour to fill the box with. 
 ComboBox::textColourId           = 0x1000a00 //The colour for the text in the box. 
@@ -50,19 +92,19 @@ ComboBox::arrowColourId          = 0x1000e00 //The colour for the arrow shape th
 ComboBox::focusedOutlineColourId = 0x1000f00 //The colour that will be used to draw a box around the edge of the component when it has focus. 
 ```
 
-DirectoryContentsDisplayComponent
+##### DirectoryContentsDisplayComponent
 ```c++
 DirectoryContentsDisplayComponent::highlightColourId       = 0x1000540 //The colour to use to fill a highlighted row of the list. 
 DirectoryContentsDisplayComponent::textColourId            = 0x1000541 //The colour for the text. 
 DirectoryContentsDisplayComponent::highlightedTextColourId = 0x1000542 //The colour with which to draw the text in highlighted sections. 
 ```
 
-DocumentWindow
+##### DocumentWindow
 ```c++
 DocumentWindow::textColourId = 0x1005701 //The colour to draw any text with. It's up to the look and feel class how this is used. 
 ```
 
-DrawableButton
+##### DrawableButton
 ```c++
 DrawableButton::textColourId         = 0x1004010 //The colour to use for the button's text label. 
 DrawableButton::textColourOnId       = 0x1004013 //The colour to use for the button's text when the button's toggle state is "on". 
@@ -70,7 +112,7 @@ DrawableButton::backgroundColourId   = 0x1004011 //The colour used to fill the b
 DrawableButton::backgroundOnColourId = 0x1004012 //The colour used to fill the button's background (when the button is toggled 'on'). Note that if you use the ImageOnButtonBackground style, you should use TextButton::buttonOnColourId to change the button's colour. 
 ```
 
-FileBrowserComponent
+##### FileBrowserComponent
 ```c++
 FileBrowserComponent::currentPathBoxBackgroundColourId = 0x1000640 //The colour to use to fill the background of the current path ComboBox. 
 FileBrowserComponent::currentPathBoxTextColourId       = 0x1000641 //The colour to use for the text of the current path ComboBox. 
@@ -79,34 +121,34 @@ FileBrowserComponent::filenameBoxBackgroundColourId    = 0x1000643 //The colour 
 FileBrowserComponent::filenameBoxTextColourId          = 0x1000644 //The colour to use for the text of the filename TextEditor. 
 ```
 
-FileChooserDialogBox
+##### FileChooserDialogBox
 ```c++
 FileChooserDialogBox::titleTextColourId = 0x1000850 //The colour to use to draw the box's title. 
 ```
 
-FileSearchPathListComponent
+##### FileSearchPathListComponent
 ```c++
 FileSearchPathListComponent::backgroundColourId = 0x1004100 //The background colour to fill the component with Make this transparent if you don't want the background to be filled. 
 ```
 
-GroupComponent
+##### GroupComponent
 ```c++
 GroupComponent::outlineColourId            = 0x1005400 //The colour to use for drawing the line around the edge. 
 GroupComponent::GroupComponenttextColourId = 0x1005410 //The colour to use to draw the text label. 
 ```
 
-HyperlinkButton
+##### HyperlinkButton
 ```c++
 HyperlinkButton::textColourId = 0x1001f00 //The colour to use for the URL text. 
 ```
 
-KeyMappingEditorComponent
+##### KeyMappingEditorComponent
 ```c++
 KeyMappingEditorComponent::backgroundColourId = 0x100ad00 //The background colour to fill the editor background.
 KeyMappingEditorComponent::textColourId       = 0x100ad01 //The colour for the text.
 ```
 
-Label
+##### Label
 ```c++
 Label::backgroundColourId            = 0x1000280 //The background colour to fill the label with.
 Label::textColourId                  = 0x1000281 //The colour for the text.
@@ -116,20 +158,20 @@ Label::textWhenEditingColourId       = 0x1000284 //The colour for the text when 
 Label::outlineWhenEditingColourId    = 0x1000285 //An optional border colour when the label is being edited.
 ```
 
-LassoComponent
+##### LassoComponent
 ```c++
 LassoComponent::lassoFillColourId    = 0x1000440 //The colour to fill the lasso rectangle with.
 LassoComponent::lassoOutlineColourId = 0x1000441 //The colour to draw the outline with.
 ```
 
-ListBox
+##### ListBox
 ```c++
 ListBox::backgroundColourId = 0x1002800 //The background colour to fill the list with. Make this transparent if you don't want the background to be filled. 
 ListBox::outlineColourId    = 0x1002810 //An optional colour to use to draw a border around the list. Make this transparent to not have an outline. 
 ListBox::textColourId       = 0x1002820 //The preferred colour to use for drawing text in the listbox. 
 ```
 
-MidiKeyboardComponent
+##### MidiKeyboardComponent
 ```c++
 MidiKeyboardComponent::whiteNoteColourId              = 0x1005000
 MidiKeyboardComponent::blackNoteColourId              = 0x1005001
@@ -142,7 +184,7 @@ MidiKeyboardComponent::upDownButtonArrowColourId      = 0x1005007
 MidiKeyboardComponent::shadowColourId                 = 0x1005008
 ```
 
-PopupMenu
+##### PopupMenu
 ```c++
 PopupMenu::backgroundColourId            = 0x1000700 //The colour to fill the menu's background with. 
 PopupMenu::textColourId                  = 0x1000600 //The colour for normal menu item text, (unless the colour is specified when the item is added). 
@@ -151,31 +193,31 @@ PopupMenu::highlightedBackgroundColourId = 0x1000900 //The colour to fill the ba
 PopupMenu::highlightedTextColourId       = 0x1000800 //The colour to use for the text of the currently highlighted item. 
 ```
 
-ProgressBar
+##### ProgressBar
 ```c++
 ProgressBar::backgroundColourId = 0x1001900 //The background colour, behind the bar. 
 ProgressBar::foregroundColourId = 0x1001a00 //The colour to use to draw the bar itself. LookAndFeel classes will probably use variations on this colour. 
 ```
 
-PropertyComponent
+##### PropertyComponent
 ```c++
 PropertyComponent::backgroundColourId = 0x1008300 //The background colour to fill the component with. 
 PropertyComponent::labelTextColourId  = 0x1008301 //The colour for the property's label text. 
 ```
 
-ResixeableWindows
+##### ResizeableWindow
 ```c++
 ResizableWindow::backgroundColourId = 0x1005700 //A colour to use to fill the window's background. 
 ```
 
-Scrollbar
+##### Scrollbar
 ```c++
 ScrollBar::backgroundColourId = 0x1000300    //The background colour of the scrollbar. 
 ScrollBar::thumbColourId      = 0x1000400    //A base colour to use for the thumb. The look and feel will probably use variations on this colour. 
 ScrollBar::trackColourId      = 0x1000401     //A base colour to use for the slot area of the bar. The look and feel will probably use variations on this colour. 
 ```
 
-SidePanel
+##### SidePanel
 ```c++
 SidePanel::backgroundColour          = 0x100f001
 SidePanel::titleTextColour           = 0x100f002
@@ -185,7 +227,7 @@ SidePanel::dismissButtonOverColour   = 0x100f004
 SidePanel::dismissButtonDownColour   = 0x100f005
 ```
 
-Slider
+##### Slider
 ```c++
 Slider::backgroundColourId          = 0x1001200 //A colour to use to fill the slider's background. 
 Slider::thumbColourId               = 0x1001300 //The colour to draw the thumb with. It's up to the look and feel class how this is used. 
@@ -198,7 +240,8 @@ Slider::textBoxHighlightColourId    = 0x1001600 //The text highlight colour for 
 Slider::textBoxOutlineColourId      = 0x1001700 //The colour to use for a border around the text-editor box. 
 ```
 
-TabbedButtonBar
+
+##### TabbedButtonBar
 ```c++
 TabbedButtonBar::tabOutlineColourId   = 0x1005812 //The colour to use to draw an outline around the tabs.  
 TabbedButtonBar::tabTextColourId      = 0x1005813 //The colour to use to draw the tab names. If this isn't specified, the look and feel will choose an appropriate colour. 
@@ -206,13 +249,13 @@ TabbedButtonBar::frontOutlineColourId = 0x1005814 //The colour to use to draw an
 TabbedButtonBar::frontTextColourId    = 0x1005815 //The colour to use to draw the currently-selected tab name. If this isn't specified, the look and feel will choose an appropriate colour. 
 ```
 
-TabbedComponent
+##### TabbedComponent
 ```c++
 TabbedComponent::backgroundColourId = 0x1005800 //The colour to fill the background behind the tabs. 
 TabbedComponent::outlineColourId    = 0x1005801 //The colour to use to draw an outline around the content. (See setOutline)  
 ```
 
-TableHeaderComponent
+##### TableHeaderComponent
 ```c++
 TableHeaderComponent::textColourId       = 0x1003800 //The colour for the text in the header. 
 TableHeaderComponent::backgroundColourId = 0x1003810 //The colour of the table header background. It's up to the LookAndFeel how this is used. 
@@ -220,7 +263,7 @@ TableHeaderComponent::outlineColourId    = 0x1003820 //The colour of the table h
 TableHeaderComponent::highlightColourId  = 0x1003830 //The colour of the table header background when the mouse is over or down above the the table header. It's up to the LookAndFeel to use a variant of this colour to destiuish between the down and hover state. 
 ```
 
-TextButton
+##### TextButton
 ```c++
 TextButton::buttonColourId   = 0x1000100  //The colour used to fill the button shape (when the button is toggled 'off'). The look-and-feel class might re-interpret this to add effects, etc.
 TextButton::buttonOnColourId = 0x1000101  //The colour used to fill the button shape (when the button is toggled  'on'). The look-and-feel class might re-interpret this to add effects, etc.
@@ -228,7 +271,7 @@ TextButton::textColourOnId   = 0x1000102  //The colour to use for the button's t
 TextButton::textColourOffId  = 0x1000103  //The colour to use for the button's text.when the button's toggle state is "on".
 ```
 
-TextEditor
+##### TextEditor
 ```c++
 TextEditor::backgroundColourId      = 0x1000200 //The colour to use for the text component's background - this can be transparent if necessary.
 TextEditor::textColourId            = 0x1000201 //The colour that will be used when text is added to the editor. Note that because the editor can contain multiple colours, calling this method won't change the colour of existing text - to do that, use the applyColourToAllText() method.
@@ -239,31 +282,21 @@ TextEditor::focusedOutlineColourId  = 0x1000206 //If this is non-transparent, it
 TextEditor::shadowColourId          = 0x1000207 //If this is non-transparent, it'll be used to draw an inner shadow around the edge of the editor.
 ```
 
-TreeView
-```c++
-TreeView::backgroundColourId             = 0x1000500 //A background colour to fill the component with. 
-TreeView::linesColourId                  = 0x1000501 //The colour to draw the lines with.
-TreeView::dragAndDropIndicatorColourId   = 0x1000502 //The colour to use for the drag-and-drop target position indicator. 
-TreeView::selectedItemBackgroundColourId = 0x1000503 //The colour to use to fill the background of any selected items. 
-TreeView::oddItemsColourId               = 0x1000504 //The colour to use to fill the backround of the odd numbered items. 
-TreeView::evenItemsColourId              = 0x1000505  //The colour to use to fill the backround of the even numbered items. 
-```
-
-TextPropertyComponent
+##### TextPropertyComponent
 ```c++
 TextPropertyComponent::backgroundColourId = 0x100e401 //The colour to fill the background of the text area. 
 TextPropertyComponent::textColourId       = 0x100e402 //The colour to use for the editable text. 
 TextPropertyComponent::outlineColourId    = 0x100e403 //The colour to use to draw an outline around the text area. 
 ```
 
-ToggleButton
+##### ToggleButton
 ```c++
 ToggleButton::textColourId         = 0x1006501 //The colour to use for the button's text.
 ToggleButton::tickColourId         = 0x1006502 //The colour to use for the tick mark.
 ToggleButton::tickDisabledColourId = 0x1006503 //The colour to use for the disabled tick mark.
 ```
 
-Toolbar
+##### Toolbar
 ```c++
 Toolbar::backgroundColourId                = 0x1003200 //A colour to use to fill the toolbar's background. For more control over this, override LookAndFeel::paintToolbarBackground(). 
 Toolbar::separatorColourId                 = 0x1003210 //A colour to use to draw the separator lines. 
@@ -273,9 +306,19 @@ Toolbar::labelTextColourId                 = 0x1003240 //A colour to use for dra
 Toolbar::editingModeOutlineColourId        = 0x1003250 //A colour to use for an outline around buttons when the customisation dialog is active and the mouse moves over them. 
 ```
 
-TooltipWindow
+##### TooltipWindow
 ```c++
 TooltipWindow::backgroundColourId = 0x1001b00 //The colour to fill the background with. 
 TooltipWindow::textColourId       = 0x1001c00 //The colour to use for the text. 
 TooltipWindow::outlineColourId    = 0x1001c10 //The colour to use to draw an outline around the tooltip. 
+```
+
+##### TreeView
+```c++
+TreeView::backgroundColourId             = 0x1000500 //A background colour to fill the component with. 
+TreeView::linesColourId                  = 0x1000501 //The colour to draw the lines with.
+TreeView::dragAndDropIndicatorColourId   = 0x1000502 //The colour to use for the drag-and-drop target position indicator. 
+TreeView::selectedItemBackgroundColourId = 0x1000503 //The colour to use to fill the background of any selected items. 
+TreeView::oddItemsColourId               = 0x1000504 //The colour to use to fill the backround of the odd numbered items. 
+TreeView::evenItemsColourId              = 0x1000505  //The colour to use to fill the backround of the even numbered items. 
 ```
