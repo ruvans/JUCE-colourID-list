@@ -3,7 +3,7 @@ A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound:
 
 
 
-##LAF Components
+#### LAF Components
 * [AlertWindow](alertwindow)
 * AudioDeviceSelectorComponentMethods
 * BubbleComponent
@@ -35,7 +35,7 @@ A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound:
 * TreeView
 ---
 
-###AlertWindow
+##### AlertWindow
 
 ```c++
 AlertWindow::backgroundColourId = 0x1001800 //The background colour for the window.
