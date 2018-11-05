@@ -17,7 +17,7 @@ A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound:
 * [FileChooserDialogBox](#filechooserdialogbox)
 * [FileSearchPathListComponent](#filesearchpathlistcomponent)
 * [GroupComponent](#groupcomponent)
-* [HyperlinkButton](#hyperlinkbutton]
+* [HyperlinkButton](#hyperlinkbutton)
 * [KeyMappingEditorComponentMethods](#keymappingeditorcomponentmethods)
 * [Label](#label)
 * [LassoComponentMethods](#lassocomponentmethods)
