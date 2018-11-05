@@ -1,37 +1,38 @@
 # JUCE-colourID-list
 A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound: :woman_artist: :man_artist:
 
-LAF Components
-*[AlertWindow](alertwindow)
-*AudioDeviceSelectorComponentMethods
-*BubbleComponent
-*Button
-*CallOutBox
-*ComboBox
-*ConcertinaPanel
-*DocumentWindow
-*FileBrowserComponent
-*FilenameComponent
-*GroupComponent
-*ImageButton
-*KeyMappingEditorComponentMethods
-*Label
-*LassoComponentMethods
-*PopupMenu
-*ProgressBar
-*PropertyComponent
-*ResizableWindow
-*ScrollBar
-*SidePanel
-*Slider
-*StretchableLayoutResizerBar
-*TabbedButtonBar
-*TableHeaderComponent
-*TextEditor
-*Toolbar
-*TooltipWindow
-*TreeView
 
+
+####LAF Components
+* [AlertWindow](alertwindow)
+* AudioDeviceSelectorComponentMethods
+* BubbleComponent
+* Button
+* CallOutBox
+* ComboBox
+* ConcertinaPanel
+* DocumentWindow
+* FileBrowserComponent
+* FilenameComponent
+* GroupComponent
+* ImageButton
+* KeyMappingEditorComponentMethods
+* Label
+* LassoComponentMethods
+* PopupMenu
+* ProgressBar
+* PropertyComponent
+* ResizableWindow
+* ScrollBar
+* SidePanel
+* Slider
+* StretchableLayoutResizerBar
+* TabbedButtonBar
+* TableHeaderComponent
+* TextEditor
+* Toolbar
+* TooltipWindow
+* TreeView
 ---
 
 ###AlertWindow
