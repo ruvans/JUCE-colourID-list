@@ -18,7 +18,7 @@ A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound:
 * [FileSearchPathListComponent](#filesearchpathlistcomponent)
 * [GroupComponent](#groupcomponent)
 * [HyperlinkButton](#hyperlinkbutton)
-* [KeyMappingEditorComponentMethods](#keymappingeditorcomponentmethods)
+* [KeyMappingEditorComponent](#keymappingeditorcomponent)
 * [Label](#label)
 * [LassoComponentMethods](#lassocomponentmethods)
 * [ListBox](#listbox)
@@ -214,7 +214,7 @@ ResizableWindow::backgroundColourId = 0x1005700 //A colour to use to fill the wi
 ```c++
 ScrollBar::backgroundColourId = 0x1000300    //The background colour of the scrollbar. 
 ScrollBar::thumbColourId      = 0x1000400    //A base colour to use for the thumb. The look and feel will probably use variations on this colour. 
-ScrollBar::trackColourId      = 0x1000401     //A base colour to use for the slot area of the bar. The look and feel will probably use variations on this colour. 
+ScrollBar::trackColourId      = 0x1000401    //A base colour to use for the slot area of the bar. The look and feel will probably use variations on this colour. 
 ```
 
 ##### SidePanel
@@ -320,5 +320,5 @@ TreeView::linesColourId                  = 0x1000501 //The colour to draw the li
 TreeView::dragAndDropIndicatorColourId   = 0x1000502 //The colour to use for the drag-and-drop target position indicator. 
 TreeView::selectedItemBackgroundColourId = 0x1000503 //The colour to use to fill the background of any selected items. 
 TreeView::oddItemsColourId               = 0x1000504 //The colour to use to fill the backround of the odd numbered items. 
-TreeView::evenItemsColourId              = 0x1000505  //The colour to use to fill the backround of the even numbered items. 
+TreeView::evenItemsColourId              = 0x1000505 //The colour to use to fill the backround of the even numbered items. 
 ```
