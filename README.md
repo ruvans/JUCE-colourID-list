@@ -26,7 +26,7 @@ A handy list of all the colour IDs used in JUCE LookAndFeel classes :loud_sound:
 * [PopupMenu](#popupmenu)
 * [ProgressBar](#progressbar)
 * [PropertyComponent](#propertycomponent)
-* [ResizableWindow](#resizablewindow)
+* [ResizableWindow](#resizeablewindow)
 * [ScrollBar](#scrollbar)
 * [SidePanel](#sidepanel)
 * [Slider](#slider)
